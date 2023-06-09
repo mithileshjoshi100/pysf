@@ -73,7 +73,9 @@ you can also add categories, language paramenters in code
 ## Method 2
 
 1. Manualy creat 1 coutom label, for refrence of program/ for example
-2. run the below script
+2. run the below script 
+    install python3 in system
+    install simple_saleforce,pandas,requests modules
 ```
 def create_labels_from_csv(file_name,sample_label_name):
     '''
