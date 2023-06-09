@@ -100,6 +100,41 @@ def create_xml_for_tranlations(filename,p1,p2):
     print("XML Created")
 
 
+def create_xml_for_customlabels(filename):
+    '''
+    Change the verstions in xml if required
+    input <= takes csv file name fist column: LabelName, second column: LabelValue
+    output => NA
+    this will create a xml file in same folder
+    you can deploy this xml file using vs code
+    '''
+
+    df = pd.read_csv(filename)
+    
+    with open('labels.xml', "w") as f:
+        f.write('''<?xml version="1.0" encoding="UTF-8"?>
+        <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+        ''')
+        for x,y in zip(df['LabelName'],df['LabelValue']):
+            f.write(f'''
+            <labels>
+                <fullName>{x.strip()}</fullName>
+                <categories>test</categories>
+                <language>en_US</language>
+                <protected>true</protected>
+                <shortDescription>{x.strip()}</shortDescription>
+                <value>{y.strip()}</value>
+            </labels>
+            ''')
+        f.write('''
+        </CustomLabels>''')
+        
+    print("XML Created")
+
+
+
+
+
 def delet_labels_from_csv(filename):
     '''
     input <= pass a csv file name must contain a single column with name CustomLabel
