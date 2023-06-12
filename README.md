@@ -68,3 +68,10 @@ use `script/TranslationsRest.py`
 add your creds and run file
 change instance url
 make any other changes if required
+
+## Fetch All label and its Values form email Template 
+
+use `` 
+need to provide emailtemplate id in program 
+program will generate a list for all label used in Email Templates
+`Experimental , using regular expression for fileter out lables form html String`
