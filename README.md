@@ -27,6 +27,10 @@ Margaery    |  Tyrell
 Danerys     |  Targaryen  
 Tyrion      |  Lannister  
 
-## Example Raw Output
+
+### step 2
+
+use `script/CustomLabelsRest.py`
+add your creds and run file
 
 
