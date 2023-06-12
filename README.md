@@ -32,7 +32,8 @@ Tyrion      |  Lannister
 
 use `script/CustomLabelsRest.py`
 add your creds and run file
-
+change instance url
+make any other changes if required
 
 ## Create Customlabels Translations with RestAPI automation using Python Script
 
@@ -65,3 +66,5 @@ Tyrion      |  deTyrion   |  frTyrion
 
 use `script/TranslationsRest.py`
 add your creds and run file
+change instance url
+make any other changes if required
