@@ -18,15 +18,15 @@ what you need
 
 ### step 1
 creat labels.csv like this
-File: `labels.csv`
 
-```
-Name,Value
-Name1,value1
-Name2,Value2
-Name3,Value3
-Name4,Value4
-```
 
+Name        |  Value
+------------|-------------
+Mance       |  Rayder     
+Margaery    |  Tyrell     
+Danerys     |  Targaryen  
+Tyrion      |  Lannister  
+
+## Example Raw Output
 
 
