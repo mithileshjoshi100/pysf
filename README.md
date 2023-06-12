@@ -18,9 +18,15 @@ what you need
 
 ### step 1
 creat labels.csv like this
-.. csv-table::
-    :widths: 25 25 25 25
-    :file: script/labels.csv
+File: `labels.csv`
+
+```
+Name,Value
+Name1,value1
+Name2,Value2
+Name3,Value3
+Name4,Value4
+```
 
 
 
