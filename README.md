@@ -53,7 +53,7 @@ what you need
 creat `translations.csv` like this
 
 
-First Name  |  de         |  fr               
+LabelName   |  de         |  fr               
 ------------|-------------|----------------
 Mance       |  deMance    |  frMance 
 Margaery    |  deMargaery |  frMargaery        
